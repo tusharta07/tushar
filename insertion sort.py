@@ -1,4 +1,4 @@
-def bubble_sort(arr):
+def insertion_sort(arr):
     n=len(arr)
     for i in range(1, n):
         for j in range(i-1,-1,-1):
@@ -8,5 +8,5 @@ def bubble_sort(arr):
                 break
 
 arr= [int(k) for k in input().split()]
-bubble_sort(arr)
+insertion_sort(arr)
 print(arr)
